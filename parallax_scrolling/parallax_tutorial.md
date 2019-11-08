@@ -40,6 +40,7 @@ What does this mean?
 - ```<!DOCTYPE html>```: It tells the web browser what version of HTML we are using. Currently, we are using HTML 5
 - ```<html></html>```: It is where all the HTML elements are contained.
 - ```<head></head>```: The head tag is the container for the head elements. Head elements include the title, the linked style, the meta information, and more.
+
 -```<title></title>```: Displays the title of the web page in the title bar.
 - ```<meta charset="utf-8"/>```: It specifies how each character will be encoded.
 
