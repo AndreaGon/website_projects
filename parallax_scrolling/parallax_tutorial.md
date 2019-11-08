@@ -11,7 +11,7 @@ https://www.w3schools.com/howto/tryhow_css_parallax_demo_none.htm
 https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm
 
 
-### When To Use Parallax Scrolling?
+#### When To Use Parallax Scrolling?
 - When you want the user to scroll through your website
 - The website is meant to tell a story
 
@@ -33,6 +33,7 @@ On your Text Editor, type in this code:
   <head>
     <title>Photography Portfolio</title>
     <meta charset = "utf-8"/>
+    <link rel = "stylesheet" type="text/css" href="main.css"/>
   </head>
 </html>
 ```
@@ -42,6 +43,7 @@ What does this mean?
 - ```<head></head>```: The head tag is the container for the head elements. Head elements include the title, the linked style, the meta information, and more.
 - ```<title></title>```: Displays the title of the web page in the title bar.
 - ```<meta charset="utf-8"/>```: It specifies how each character will be encoded.
+- ```<link rel="stylesheet" type="text/css" href="main.css"/>```: This links the external CSS file.
 
 Save the file as ```index.html```.
 
@@ -228,3 +230,34 @@ We will add an image overlay to the featured image links.
 ```
 
 #### Step 6: Adding style and parallax scrolling to Ending Container
+
+```
+.ending
+{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 150%;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  padding-top: 24%;
+  padding-bottom: 15%;
+
+}
+
+.parallax2
+{
+  display: block;
+  overflow: hidden;
+  background-image:url("images/background2.jpg");
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+```
+
+Save the file and refresh the website.
