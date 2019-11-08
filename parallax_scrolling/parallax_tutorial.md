@@ -61,7 +61,7 @@ Below the ```<head></head>``` tag, add this lines of code:
 </body>
 ```
 
-This will be the background content. Currently, it doesn't have background image. It only contains the headers.
+This will be the background container. Currently, it doesn't have background image. It only contains the headers.
 
 Below ```<div class="parallax"></div>```, add this line of code:
 
@@ -121,11 +121,110 @@ Lastly, we will add in the ending container.
 
 Save the file and run.
 
-#### Step 4: Adding the CSS
+#### Step 4: Adding CSS to the Background Container
 
 Create a new file and name it as main.css. Save it in the same folder with the index.html file.
 
+We will first style the background content.
+```
+/**Setting the margin and padding to zero remove the space on the sides of the division tags**/
+body
+{
+  margin: 0;
+  padding: 0;
+}
+h1, h4
+{
+  font-family: 'Montserrat', serif;
+}
 
+.header
+{
+  color: white;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-bottom: 30%;
+  font-size: 150%;
+}
 
+/**Add in the background image**/
+.parallax
+{
+  display: block;
+  overflow: hidden;
+  background-image: url("images/background1.jpg");
+  width: 100%;
+  height: auto;
+  background-attachment: fixed; /**Fixing the background prevents it from scrolling with the rest of the page**/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+```
 
+Save the file and refresh the website. It should show the parallax scrolling effect.
 
+#### Step 5: Styling the Foreground Container
+
+```
+/**Styling the foreground container**/
+.foreground-container
+{
+  padding-bottom: 20%;
+}
+.head-sample
+{
+  margin-top: 10%;
+  text-align: center;
+  font-size: 250%;
+}
+.table1
+{
+  width: 80%;
+  padding-top: 5%;
+
+}
+.table1 td
+{
+  display: absolute;
+  position: relative;
+  text-align: center;
+  padding: 0%;
+
+}
+```
+
+We will add an image overlay to the featured image links.
+
+```
+/*Overlay*/
+.overlay
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(0,0,0,0.5);
+}
+
+.feature:hover .overlay
+{
+  opacity: 1;
+}
+
+.text
+{
+  position: absolute;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 250%;
+  top: 45%;
+  left: 35%;
+}
+```
+
+#### Step 6: Adding style and parallax scrolling to Ending Container
