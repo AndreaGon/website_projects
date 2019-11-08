@@ -34,6 +34,7 @@ On your Text Editor, type in this code:
     <title>Photography Portfolio</title>
     <meta charset = "utf-8"/>
     <link rel = "stylesheet" type="text/css" href="main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
 </html>
 ```
@@ -44,6 +45,7 @@ What does this mean?
 - ```<title></title>```: Displays the title of the web page in the title bar.
 - ```<meta charset="utf-8"/>```: It specifies how each character will be encoded.
 - ```<link rel="stylesheet" type="text/css" href="main.css"/>```: This links the external CSS file.
+- ```<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">```: This is a generated link from Google Fonts
 
 Save the file as ```index.html```.
 
@@ -63,7 +65,12 @@ Below the ```<head></head>``` tag, add this lines of code:
 </body>
 ```
 
-This will be the background container. Currently, it doesn't have background image. It only contains the headers.
+This will be the background container. Currently, it doesn't have background image. It only contains the headings.
+- ```<body></body>```: This is where all the web contents are placed.
+- ```<div></div>```: This is a division tag. It is used as a container for other HTML elements.
+- ```<h1></h1>```: It defines which heading to use, with ```<h1>``` being the largest heading and ```<h6>``` being the smallest.
+
+A ```class``` is an attribute that defines the style of elements with the same class name. We will use the class name later in CSS.
 
 Below ```<div class="parallax"></div>```, add this line of code:
 
