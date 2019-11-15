@@ -143,7 +143,20 @@ Save the file and run.
 
 #### Step 4: Adding CSS to the Background Container
 
-Create a new file and name it as main.css. Save it in the same folder with the index.html file.
+A CSS structure consist of:
+- Selector: It points to the HTML element that will be styled.
+- Property: It defines what style the HTML element should have.
+- Value: The CSS value depends on the CSS property. A value can be percents, hexadecimals, colors, URLs, and more.
+
+Sample CSS structure:
+```
+h1 /**Selector**/
+{
+  color: red; /**Property and Value**/
+}
+```
+
+For the Photography Portfolio, create a new file and name it as main.css. Save it in the same folder with the index.html file.
 
 We will first style the background content.
 ```
