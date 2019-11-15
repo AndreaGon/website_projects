@@ -80,18 +80,21 @@ Below ```<div class="parallax"></div>```, add this line of code:
 ```
 This will be the foreground container.
 
-Under the foreground container, we will add in sample photos as contents. 
+Under the foreground container, we will add in featured images as contents. We will also add in an image overlay effect on the featured images for design purposes.
+
 ```
 <h1 class = "head-sample"><u>Sample Photos</u></h1>
 
-<!--This is to properly display the featured images-->
+<!--This is to properly align the featured images-->
 <table class = "table1" align = "center">
   <tr>
     <td rowspan = "2">
       <div class = "feature">
         <a href="#">
           <img src="images/sample2.jpg" class = "featured-img" height="650" width="510">
-          <div class = "overlay"><div class ="text">Terrain</div></div>
+          
+          <!--This is the overlay. By default, this div tag and all its contents are hidden.-->
+          <div class = "overlay"><div class ="text">Terrain</div></div> 
         </a>
       </div>
     </td>
@@ -116,6 +119,14 @@ Under the foreground container, we will add in sample photos as contents.
   </tr>
 </table>
 ```
+- ```<table></table>```: The table tag defines the HTML table. It contains the table elements which include the table row, table header, and table data.
+- ```<tr></tr>```: It stands for table row, and it defines the rows in a table. 
+-```<td></td>```: It stands for table data, and it defines the contents inside the table row.
+- ```<a href = ""></a>```: This is the anchor tag, and is used to create hyperlinks.
+- ```<img src=""/>```: This is the image tag. The file path to the image required is put under the ```src``` attribute.
+
+The attribute ```rowspan``` on the table data tag specifies the number of rows a table cell should span.
+
 
 Lastly, we will add in the ending container.
 ```
