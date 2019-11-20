@@ -120,7 +120,7 @@ Under the foreground container, we will add in featured images as contents. We w
 </table>
 ```
 - ```<table></table>```: The table tag defines the HTML table. It contains the table elements which include the table row, table header, and table data.
-- ```<tr></tr>```: It stands for table row, and it defines the rows in a table. 
+- ```<tr></tr>```: It stands for table row, and it defines the rows in a table.
 -```<td></td>```: It stands for table data, and it defines the contents inside the table row.
 - ```<a href = ""></a>```: This is the anchor tag, and is used to create hyperlinks.
 - ```<img src=""/>```: This is the image tag. The file path to the image required is put under the ```src``` attribute.
@@ -166,11 +166,14 @@ body
   margin: 0;
   padding: 0;
 }
+
+/**Font for heading tags**/
 h1, h4
 {
   font-family: 'Montserrat', serif;
 }
 
+/**Container for headings**/
 .header
 {
   color: white;
@@ -184,8 +187,8 @@ h1, h4
 .parallax
 {
   display: block;
-  overflow: hidden;
-  background-image: url("images/background1.jpg");
+  overflow: hidden; /**Hides the part of a content when it is too big inside a container**/
+  background-image: url("images/background1.jpg"); /**Sets the background image**/
   width: 100%;
   height: auto;
   background-attachment: fixed; /**Fixing the background prevents it from scrolling with the rest of the page**/
@@ -219,7 +222,7 @@ Save the file and refresh the website. It should show the parallax scrolling eff
 .table1 td
 {
   display: absolute;
-  position: relative;
+  position: relative; /**The element is positioned relative to it's original position**/
   text-align: center;
   padding: 0%;
 
