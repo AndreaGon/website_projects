@@ -235,7 +235,7 @@ We will add an image overlay to the featured image links.
 /*Overlay*/
 .overlay
 {
-  position: absolute;
+  position: absolute; /**Allows the element to be placed exactly where you want it to be**/
   top: 0;
   bottom: 0;
   left: 0;
@@ -247,6 +247,7 @@ We will add an image overlay to the featured image links.
   background: rgba(0,0,0,0.5);
 }
 
+/**Make overlay container appear on mouse hover**/
 .feature:hover .overlay
 {
   opacity: 1;
