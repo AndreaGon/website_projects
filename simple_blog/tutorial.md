@@ -88,3 +88,37 @@ We will then add a sidebar, which contains a search input and links to popular p
   </ul>
 </div>
 ```
+
+Next, we will add some content for the website. For our blog site, we will add a small summary of recent posts.
+
+```
+<div class="post">
+  <h2>Lorem Ipsum 1</h2>
+  <h4>December 14, 2019</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus porta turpis, et accumsan tortor tempus sed. Quisque sollicitudin eros vitae augue rutrum facilisis. Nam in velit lacinia, aliquet justo sed, sollicitudin sem. Mauris elementum orci sit amet elit accumsan ullamcorper. Fusce posuere dolor id mattis finibus. Integer ut tempor eros. Nam consectetur elit id porttitor varius. Curabitur finibus et neque sit amet aliquam. Phasellus mattis dapibus aliquet. Mauris ut enim lacinia, condimentum mauris eget, dictum felis. Suspendisse potenti. Maecenas eu massa sem. Interdum et malesuada fames ac ante ipsum primis in faucibus...<a href="#">Read More</a></p>
+</div>
+<div class="post">
+  <h2>Lorem Ipsum 2</h2>
+  <h4>November 4, 2019</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus porta turpis, et accumsan tortor tempus sed. Quisque sollicitudin eros vitae augue rutrum facilisis. Nam in velit lacinia, aliquet justo sed, sollicitudin sem. Mauris elementum orci sit amet elit accumsan ullamcorper. Fusce posuere dolor id mattis finibus. Integer ut tempor eros. Nam consectetur elit id porttitor varius. Curabitur finibus et neque sit amet aliquam. Phasellus mattis dapibus aliquet. Mauris ut enim lacinia, condimentum mauris eget, dictum felis. Suspendisse potenti. Maecenas eu massa sem. Interdum et malesuada fames ac ante ipsum primis in faucibus...<a href="#">Read More</a></p>
+</div>
+<div class="post">
+  <h2>Lorem Ipsum 3</h2>
+  <h4>October 20, 2019</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus porta turpis, et accumsan tortor tempus sed. Quisque sollicitudin eros vitae augue rutrum facilisis. Nam in velit lacinia, aliquet justo sed, sollicitudin sem. Mauris elementum orci sit amet elit accumsan ullamcorper. Fusce posuere dolor id mattis finibus. Integer ut tempor eros. Nam consectetur elit id porttitor varius. Curabitur finibus et neque sit amet aliquam. Phasellus mattis dapibus aliquet. Mauris ut enim lacinia, condimentum mauris eget, dictum felis. Suspendisse potenti. Maecenas eu massa sem. Interdum et malesuada fames ac ante ipsum primis in faucibus...<a href="#">Read More</a></p>
+</div>
+```
+
+To finish up the webiste, we will add a footer. Footers can contain links to social media accounts, site maps, and a copyright symbol. For our website, we will add a copyright symbol.
+
+In order to create a footer, the footer tag is needed:
+
+```
+<footer>
+  <h4 style="margin-left: 40px;">&copy; Copyright 2019</h4>
+</footer>
+```
+
+Open ```index.html``` file to see your changes.
+
+### My Simple Blog Site: Coding the About Page
