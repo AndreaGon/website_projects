@@ -47,6 +47,8 @@ Below the ```<head></head>```, add this lines of code:
 ```
  <body>
     <div id = "main-content">
+    
+      <!---The header, which contains the websites title--->
       <div id = "header">
         <center><h1>My Simple Blog Site</h1></center>
       </div>
@@ -61,8 +63,28 @@ Below the ```<head></head>```, add this lines of code:
  <body>
 ```
 
+This will serve as the header and the navigation bar.
+
 An ```id``` is an attribute of an HTML tag that uniquely identifies an element. 
 
 - ```<center></center>```: This is the center tag. It displays an element at the center of the page 
 - ```<ul></ul>```: This is an unordered list tag. It displays a list in either bulleted, disc, or circle form.
 
+We will then add a sidebar, which contains a search input and links to popular posts.
+
+```
+<div id = "sideBar">
+  <h3>Search For:</h3>
+  <input type="text" placeholder = "Search"/>
+  <br/>
+  <h3>Popular Posts</h3>
+  <ul type="disc">
+    <li class = "list"><a href="#">Lorem Ipsum 1</a></li>
+    <li class = "list"><a href="#">Lorem Ipsum 2</a></li>
+    <li class = "list"><a href="#">Lorem Ipsum 3</a></li>
+    <li class = "list"><a href="#">Lorem Ipsum 4</a></li>
+    <li class = "list"><a href="#">Lorem Ipsum 5</a></li>
+    <li class = "list"><a href="#">Lorem Ipsum 6</a></li>
+  </ul>
+</div>
+```
