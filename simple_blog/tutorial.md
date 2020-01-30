@@ -190,3 +190,4 @@ Just above the footer tag, add this code:
 - ```<h2></h2>```: This is Heading 2 tag. There are 6 heding tags, with Heading 1 being the largest and Heading 6 being the smallest.
 - ```<img/>```: This is the Image tag. It is an empty element, where it doesn't require the tag to be closed. The ```src``` attribute refers to the file path where the image is stored. Meanwhile, the ```width``` and ```height``` attributes are used to define the width and height of the image.
 
+Save the file and open it in a browser.
