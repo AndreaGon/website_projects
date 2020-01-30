@@ -191,3 +191,5 @@ Just above the footer tag, add this code:
 - ```<img/>```: This is the Image tag. It is an empty element, where it doesn't require the tag to be closed. The ```src``` attribute refers to the file path where the image is stored. Meanwhile, the ```width``` and ```height``` attributes are used to define the width and height of the image.
 
 Save the file and open it in a browser.
+
+### My Simple Blog Site: Coding the Contact Page
