@@ -244,7 +244,40 @@ Create a new file with the name ```contact.html``` and enter this code:
     </div>
   </body>
 </html>
-
 ```
 
+#### Step 2: Adding the Contact Form
+
+Before adding the actual code to create the form, add the container first to style the elements easily:
+
+```
+<div id = "form">
+   <h2>Contact</h2>
+</div>
+```
+
+```<h2>Contact</h2>``` will be the header of the page.
+
+Under Header 2, add this code for the form:
+
+```
+<form method="GET" action="mailto:emberaurelia@gmail.com" method="GET">
+  <label for="name">Name:</label>
+  <input type="text" id ="name" name="name" placeholder="Enter your name here..."/>
+
+  <label for="email">E-mail</label>
+  <input type="text" id ="email" name="email" placeholder="Enter your email here..."/>
+
+  <label for="mcontent">Message Content</label>
+  <br/>
+  <textarea rows="15" cols="10"></textarea>
+
+  <input type="submit" id="submit" name="Submit" value="Submit"/>
+</form>
+```
+
+- ```<form></form>```: This is the Form tag. It is used to create an HTML form. 
+
+Attributes:
+The ```method``` attribute is used to specify how to send the entered data in the form. There are two types of form-data transfer: POST and GET. The GET method appends the data in the URL, while POST has a separate file that holds the data from the form.
 
