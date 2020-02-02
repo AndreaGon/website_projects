@@ -193,3 +193,58 @@ Just above the footer tag, add this code:
 Save the file and open it in a browser.
 
 ### My Simple Blog Site: Coding the Contact Page
+
+For the Contact Page, we will create it with Forms.
+
+#### Step 1: Copying the layout from Home Page
+
+Like the About Page, we also need to copy the layout of the Home Page in order to be consistent.
+
+Create a new file with the name ```contact.html``` and enter this code:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Simple Blog Site</title>
+    <link rel="stylesheet" href = "site.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id = "main-content">
+      <div id = "header">
+        <center><h1 style="margin-top: 100px;">My Simple Blog Site</h1></center>
+      </div>
+
+      <ul id="nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div id = "sideBar">
+        <h3>Search For:</h3>
+        <input type="text" placeholder = "Search"/>
+        <br/>
+        <h3>Popular Posts</h3>
+        <ul type="disc">
+          <li class = "list"><a href="#">Lorem Ipsum 1</a></li>
+          <li class = "list"><a href="#">Lorem Ipsum 2</a></li>
+          <li class = "list"><a href="#">Lorem Ipsum 3</a></li>
+          <li class = "list"><a href="#">Lorem Ipsum 4</a></li>
+          <li class = "list"><a href="#">Lorem Ipsum 5</a></li>
+          <li class = "list"><a href="#">Lorem Ipsum 6</a></li>
+        </ul>
+      </div>
+
+      <footer>
+        <h4 style="margin-left: 40px;">&copy; Copyright 2019</h4>
+      </footer>
+    </div>
+  </body>
+</html>
+
+```
+
+
