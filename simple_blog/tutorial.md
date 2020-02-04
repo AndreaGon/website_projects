@@ -261,7 +261,7 @@ Before adding the actual code to create the form, add the container first to sty
 Under Header 2, add this code for the form:
 
 ```
-<form method="GET" action="mailto:emberaurelia@gmail.com" method="GET">
+<form method="GET" action="mailto:emberaurelia@gmail.com">
   <label for="name">Name:</label>
   <input type="text" id ="name" name="name" placeholder="Enter your name here..."/>
 
@@ -278,6 +278,11 @@ Under Header 2, add this code for the form:
 
 - ```<form></form>```: This is the Form tag. It is used to create an HTML form. 
 
-Attributes:
-The ```method``` attribute is used to specify how to send the entered data in the form. There are two types of form-data transfer: POST and GET. The GET method appends the data in the URL, while POST has a separate file that holds the data from the form.
+The ```method``` attribute is used to specify how to send the entered data in the form. There are two types of form-data transfer: POST and GET. The GET method appends the data in the URL, while POST has a separate file that holds the data from the form. The ```action``` attribute specifies where to send the data. 
+
+- ```<label></label>```: The label tag is used to add a title to an element.
+- ```<input/>```: There are many types of input tag, which are specified using the ```type``` attribute: checkbox, text, radio, submit, reset, password, etc.
+- ```<textarea></textarea>```: The text area tag is used to create input space that can hold unlimited number of characters.
+
+Save the file and open it on your browser.
 
