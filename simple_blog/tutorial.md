@@ -289,4 +289,25 @@ Save the file and open it on your browser.
 
 ### My Simple Blog: Adding the CSS
 
-There are three ways to add CSS to HTML: Inline, Embedded, and External. Inline CSS requires the use of the ```style``` attribute, and is only used when you want to style a particular element.Meanwhile, embedded CSS, as its name implies, is embedded on the HTML file. It uses the ```<style></style>``` tag, 
+There are three ways to add CSS to HTML: Inline, Embedded, and External. Inline CSS requires the use of the ```style``` attribute, and is only used when you want to style a particular element. Meanwhile, embedded CSS, as its name implies, is embedded on the HTML file. It uses the ```<style></style>``` tag. On the other hand, CSS is placed on a separate file in external CSS. The CSS file is then linked to the HTML file with the use of the ```<link/>``` tag. This is best used when all of your HTML files have the same style.
+
+#### Step 1: Styling the Home Page with Inline and Embedded CSS
+
+You probably noticed that inline CSS was already in used when creating the Home Page. Inline CSS was used to style ```<h1></h1>``` and ```<h4></h4>```.
+
+We are then going to add embedded CSS to style the recenet post containers. Inside the ```<head></head>``` tag, add this lines of code:
+
+```
+<style>
+  .post{
+    margin: 30px;
+    margin-left: 70px;
+    width: 700px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+</style>
+```
+
+This should add style to the recent post containers.
