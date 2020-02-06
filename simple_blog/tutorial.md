@@ -50,7 +50,7 @@ Below the ```<head></head>```, add this lines of code:
     
       <!---The header, which contains the websites title--->
       <div id = "header">
-        <center><h1>My Simple Blog Site</h1></center>
+        <center><h1 style="margin-top: 100px;">My Simple Blog Site</h1></center>
       </div>
 
       <!---Navigation bar--->
@@ -286,3 +286,7 @@ The ```method``` attribute is used to specify how to send the entered data in th
 
 Save the file and open it on your browser.
 
+
+### My Simple Blog: Adding the CSS
+
+There are three ways to add CSS to HTML: Inline, Embedded, and External. Inline CSS requires the use of the ```style``` attribute, and is only used when you want to style a particular element.Meanwhile, embedded CSS, as its name implies, is embedded on the HTML file. It uses the ```<style></style>``` tag, 
