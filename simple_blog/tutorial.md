@@ -291,11 +291,11 @@ Save the file and open it on your browser.
 
 There are three ways to add CSS to HTML: Inline, Embedded, and External. Inline CSS requires the use of the ```style``` attribute, and is only used when you want to style a particular element. Meanwhile, embedded CSS, as its name implies, is embedded on the HTML file. It uses the ```<style></style>``` tag. On the other hand, CSS is placed on a separate file in external CSS. The CSS file is then linked to the HTML file with the use of the ```<link/>``` tag. This is best used when all of your HTML files have the same style.
 
-#### Step 1: Styling the Home Page with Inline and Embedded CSS
+#### Step 1: Styling the Web Pages with Inline and Embedded CSS
 
 You probably noticed that inline CSS was already in used when creating the Home Page. Inline CSS was used to style ```<h1></h1>``` and ```<h4></h4>```.
 
-We are then going to add embedded CSS to style the recenet post containers. Inside the ```<head></head>``` tag, add this lines of code:
+We are then going to add embedded CSS to style the recenet post containers in the Home page. Inside the ```<head></head>``` tag, add this lines of code:
 
 ```
 <style>
@@ -310,4 +310,21 @@ We are then going to add embedded CSS to style the recenet post containers. Insi
 </style>
 ```
 
-This should add style to the recent post containers.
+This should add style to the recent post containers. 
+
+Next, we are going to style the Contact page with embedded CSS. Add this lines of code inside the ```<head></head>``` tag:
+
+```
+<style>
+  input[type=submit] {
+    background-color: #D4E88E;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
+```
+
+This will style the submit button of the form.
