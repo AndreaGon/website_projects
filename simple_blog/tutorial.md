@@ -328,3 +328,130 @@ Next, we are going to style the Contact page with embedded CSS. Add this lines o
 ```
 
 This will style the submit button of the form.
+
+#### Step 2: Creating External CSS to Style the Whole Website
+
+First, create a new file and name it as ```site.css```. The CSS style for every web page will go here.
+
+Add the following lines of CSS to style the body, main container, and the navigation bar:
+
+```
+/**Remove any spacing first to avoid container spacing.**/
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #A6CF7E;
+}
+
+#main-content{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #D4E88E;
+  margin: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/**Add Header Image**/
+#header {
+  display: inline-block;
+  height: 300px;
+  width: 100%;
+  background-image: url("images/headerIMG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/**Style for the navigation list**/
+#nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+/**When user hovers over a nav link, darken background of link**/
+#nav li a:hover {
+  background-color: #111;
+}
+```
+We are also going to add style to the side bar, which includes a search bar and a list of popular posts.
+
+```
+#sideBar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  position: absolute;
+  right: 250px;
+  margin: 30px;
+  margin-right: -20px;
+  background-color: #FFFFFF;
+}
+
+input[type=text] , textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.list{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+```
+
+To create unity in font styles, we have to add it in our external CSS file as well.
+
+```
+h1, h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, label{
+  font-family: 'Zilla Slab';
+}
+
+/**This is to style about and form container**/
+#about, #form{
+  margin: 30px;
+  margin-left: 70px;
+  width: 700px;
+  padding: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+```
+Finally, all that is left ot style is the footer.
+
+```
+footer{
+  margin-top: 100px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #333;
+  color: white;
+}
+```
+
+Save ```ste.css``` and refresh the website.
