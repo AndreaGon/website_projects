@@ -454,4 +454,4 @@ footer{
 }
 ```
 
-Save ```ste.css``` and refresh the website.
+Save ```site.css``` and refresh the website.
