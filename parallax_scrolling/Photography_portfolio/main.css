@@ -1,0 +1,117 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+h1, h4
+{
+  font-family: 'Montserrat', serif;
+}
+
+.header
+{
+  color: white;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-bottom: 30%;
+  font-size: 150%;
+}
+
+.parallax
+{
+  display: block;
+  overflow: hidden;
+  background-image: url("images/background1.jpg");
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Second Part*/
+.foreground-container
+{
+  padding-bottom: 20%;
+}
+.head-sample
+{
+  margin-top: 10%;
+  text-align: center;
+  font-size: 250%;
+}
+.table1
+{
+  width: 80%;
+  padding-top: 5%;
+
+}
+.table1 td
+{
+  display: absolute;
+  position: relative;
+  text-align: center;
+  padding: 0%;
+
+}
+
+/*Overlay*/
+.overlay
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(0,0,0,0.5);
+}
+
+.feature:hover .overlay
+{
+  opacity: 1;
+}
+
+.text
+{
+  position: absolute;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 250%;
+  top: 45%;
+  left: 35%;
+}
+
+
+/*Third Part*/
+.ending
+{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 150%;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  padding-top: 24%;
+  padding-bottom: 15%;
+
+}
+
+.parallax2
+{
+  display: block;
+  overflow: hidden;
+  background-image:url("images/background2.jpg");
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
